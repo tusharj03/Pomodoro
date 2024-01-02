@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[context.production.environment]
+  NEXT_PRIVATE_TARGET = "your_target_value"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
