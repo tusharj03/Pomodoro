@@ -14,32 +14,36 @@ const TimeAndDate = () => {
     };
   }, []);
 
+  const formatDate = (date) => {
+    const options = {
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: true,
+    };
+
+    const formattedTime = new Intl.DateTimeFormat("en-IN", options).format(date);
+
+    // Manually construct the formatted date with month day, year format
+    const month = date.toLocaleString("en-IN", { month: "long" });
+    const day = date.getDate();
+    const year = date.getFullYear();
+
+    const formattedDate = `${month} ${day}, ${year}, ${formattedTime}`;
+
+    // Remove "at" from the formatted date
+    if (formattedDate.includes("Saturday")) {
+      return formattedDate;
+    } else {
+      const dateWithoutAt = formattedDate.replace("at", "|");
+      return dateWithoutAt;
+    }
+  };
+
   return (
     <div className="timeAndDate-wrapper">
       <p className="timeAndDate">{formatDate(currentDate)}</p>
     </div>
   );
 };
-const formatDate = (date) => {
-  const options = {
-    // weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true,
-  };
 
-  // Format the date and time
-  const formattedDate = new Intl.DateTimeFormat("en-IN", options).format(date);
-
-  // Remove "at" from the formatted date
-  if (formattedDate.includes("Saturday")) {
-    return formattedDate;
-  } else {
-    const dateWithoutAt = formattedDate.replace("at", "|");
-    return dateWithoutAt;
-  }
-};
 export default TimeAndDate;
