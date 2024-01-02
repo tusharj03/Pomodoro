@@ -41,28 +41,12 @@ const Hero = () => {
             className="hero-details--heading"
             variants={childrenVariant}
           >
-            Calm Your Mind, Boost Your Flow
+            Academic Weapon Szn!
           </motion.h1>
           <motion.p className="hero-details--desc" variants={childrenVariant}>
-            Step into a serene forest, where raindrops gently dance upon leaves.
-            Now create your own calming mix of rain and birdsong. MindMelo helps
-            you design your perfect focus zone, where nature's tranquility fuels
-            your productivity journey.
+            Sara Ziaja's very own pomodoro.
           </motion.p>
-          <div className="hero-btns-grp">
-            <TryForFree childrenVariant={childrenVariant} />
-            <motion.a
-              variants={childrenVariant}
-              href="https://www.producthunt.com/posts/mindmelo?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mindmelo"
-              target="_blank"
-            >
-              <img
-                className="product-hunt--btn"
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=412366&theme=light"
-                alt="MindMelo - Create&#0032;you&#0032;peaceful&#0032;zone | Product Hunt"
-              />
-            </motion.a>
-          </div>
+  
         </div>
       </div>
     </motion.div>

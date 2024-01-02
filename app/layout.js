@@ -5,8 +5,8 @@ import Head from "next/head";
 import "./style/main.scss";
 
 export const metadata = {
-  title: "MindMelo",
-  description: "Calm Your Mind, Boost Your Flow",
+  title: "Sara's Pomodoro",
+  description: "Academic Weapon Szn!",
 };
 
 export default function RootLayout({ children }) {
@@ -18,18 +18,7 @@ export default function RootLayout({ children }) {
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
+        
         <link rel="manifest" href="/manifest.webmanifest" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -5,17 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <p className="footer-attribution">
-          Made with ❤️ by&nbsp;
-          <a
-            href="http://twitter.com/sidtalesara"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            SidTalesara
-          </a>
-        </p>
-        <p className="footer-text">
-          © {new Date().getFullYear()} MindMelo. All Rights Reserved.
+          Made by Tush!!&nbsp;
         </p>
       </div>
     </footer>

@@ -18,7 +18,7 @@ const TryForFree = ({ childrenVariant }) => {
           quality={100}
           className="logo-on-btn-try-for-free"
         />{" "}
-        Try For Free!
+        Click here!
       </motion.button>
     </Link>
   );
