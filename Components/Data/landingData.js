@@ -10,7 +10,7 @@ import workInProgress from "../../public/graphics/work-in-progress.png";
 export const data = [
   {
     id: uuidv4(),
-    heading: "Work, Study, Relax",
+    heading: "2024 >>",
     desc: "This semester you're gonna get all A's. This is your semester.",
     img: headphones,
     altText: "headphones-img",
@@ -26,7 +26,7 @@ export const data = [
   },
   {
     id: uuidv4(),
-    heading: "Productive Work",
+    heading: "Productivity asf",
     desc: "School?? Too easy.",
     img: workInProgress,
     altText: "work-in-progress-img",
