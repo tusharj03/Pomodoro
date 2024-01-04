@@ -47,4 +47,3 @@ const TimeAndDate = () => {
 };
 
 export default TimeAndDate;
-//hi
