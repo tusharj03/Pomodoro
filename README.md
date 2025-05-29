@@ -1,25 +1,4 @@
-<p align="center">
-  <a href="https://mindmelo.com/" target="_blank">
-    <img src="https://i.imgur.com/9PGYJNk.png" height="250">
-  </a>
-</p>
-
-<h2  align="center">MindMelo</h3>
-
-<h3  align="center">Relaxation and Productivity Enhancement App</h3>
-<p align="center">
-  <img src="https://i.imgur.com/DNI0HDO.png" alt="MindMelo Homepage">
-</p>
-
-<p align="center">
-<a href="https://github.com/sid-talesara/mindmelo/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/sid-talesara/mindmelo"></a>
-<a href="https://github.com/sid-talesara/mindmelo/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/sid-talesara/mindmelo"></a>
-<a href="https://github.com/sid-talesara/mindmelo/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/sid-talesara/mindmelo"></a>
-<a href="https://github.com/sid-talesara/mindmelo/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/sid-talesara/mindmelo"></a>
-</p>
-## About Us
-
-MindMelo is a web application designed to amplify relaxation and productivity. By seamlessly integrating soothing music, real-time weather updates, timers, the Pomodoro technique, and a to-do list, MindMelo cultivates an environment conducive to improved concentration and overall well-being.
+Pomodoro is a web application designed to amplify relaxation and productivity. By seamlessly integrating soothing music, real-time weather updates, timers, the Pomodoro technique, and a to-do list, MindMelo cultivates an environment conducive to improved concentration and overall well-being.
 
 <p align="center">
   <img src="https://i.imgur.com/JTUTorT.png" alt="MindMelo Web App">
@@ -61,21 +40,4 @@ Make sure you have the following installed on your computer:
 5. Replace placeholder API keys in the code with your actual API keys.
 6. Start the application: `npm run dev`
 7. Visit [http://localhost:3000](http://localhost:3000/) in your browser to view the application.
-
-## Contribute
-
-We welcome contributions to MindMelo. Before making a contribution, please review the [Contribution Guide](https://github.com/sid-talesara/mindmelo/blob/master/CONTRIBUTING.md).
-
-## Issues
-
-Encountering issues with MindMelo? Check out our [GitHub Issues](https://github.com/sid-talesara/MindMelo/issues) page for known problems or to report new issues. We greatly appreciate your feedback.
-
-## License
-
-MindMelo is released under the [MIT License](LICENSE).
-
----
-
-MindMelo - Relaxation and Productivity Enhancement App | Copyright © 2023 | [Sid-talesara](https://github.com/sid-talesara)
-
 </p>
